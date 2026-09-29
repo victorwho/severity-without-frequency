@@ -1,0 +1,92 @@
+C:\Users\Victor\AppData\Roaming\Python\Python314\site-packages\statsmodels\discrete\discrete_model.py:1074: RuntimeWarning: overflow encountered in exp
+  return np.exp(linpred)
+C:\Users\Victor\AppData\Roaming\Python\Python314\site-packages\statsmodels\discrete\discrete_model.py:1567: RuntimeWarning: overflow encountered in exp
+  L = np.exp(np.dot(X,params) + exposure + offset)
+C:\Users\Victor\AppData\Roaming\Python\Python314\site-packages\statsmodels\discrete\discrete_model.py:1568: RuntimeWarning: invalid value encountered in multiply
+  return -np.dot(L*X.T, X)
+C:\Users\Victor\AppData\Roaming\Python\Python314\site-packages\statsmodels\discrete\discrete_model.py:1568: RuntimeWarning: invalid value encountered in dot
+  return -np.dot(L*X.T, X)
+C:\Users\Victor\AppData\Roaming\Python\Python314\site-packages\statsmodels\discrete\discrete_model.py:1478: RuntimeWarning: overflow encountered in exp
+  L = np.exp(np.dot(X,params) + offset + exposure)
+C:\Users\Victor\AppData\Roaming\Python\Python314\site-packages\statsmodels\discrete\discrete_model.py:1479: RuntimeWarning: invalid value encountered in dot
+  return np.dot(self.endog - L, X)
+class composition: {'minor': 1015, 'mid': 805, 'major': 213}
+mean risk_b46 by class: {'major': 112.2, 'mid': 68.9, 'minor': 41.2}
+
+--- b36v1 (refetch), matched=fixed cuts  (n=2033, KSI=1169) ----------------------------
+  all_crashes per-SD          marginal  1.06 [0.96,1.16] p=0.2340   +class  0.97 [0.88,1.06] p=0.4417
+  all_crashes >= 65 (@ 65.0)  marginal  1.12 [0.91,1.38] p=0.2901   +class  1.13 [0.83,1.53] p=0.4312
+  all_crashes >= 80 (@ 80.0)  marginal  1.33 [0.90,1.95] p=0.1494   +class  1.38 [0.86,2.21] p=0.1882
+  all_crashes >=100 (@100.0)  marginal  1.62 [0.91,2.87] p=0.1021   +class  1.68 [0.84,3.33] p=0.1404
+  ksi         per-SD          marginal  1.17 [1.08,1.27] p=0.0002   +class  1.12 [1.00,1.26] p=0.0570
+  ksi         >= 65 (@ 65.0)  marginal  1.36 [1.16,1.60] p=0.0002   +class  1.17 [0.91,1.49] p=0.2188
+  ksi         >= 80 (@ 80.0)  marginal  1.61 [1.16,2.22] p=0.0044   +class  1.44 [0.96,2.15] p=0.0770
+  ksi         >=100 (@100.0)  marginal  1.68 [1.09,2.60] p=0.0185   +class  1.46 [0.89,2.40] p=0.1350
+
+--- b46v1, percentile-matched cuts  (n=2033, KSI=1169) ----------------------------
+  all_crashes per-SD          marginal  1.08 [1.01,1.16] p=0.0252   +class  1.07 [0.98,1.17] p=0.1122
+  all_crashes >= 65 (@ 79.5)  marginal  1.19 [0.97,1.47] p=0.0992   +class  1.22 [0.92,1.61] p=0.1617
+  all_crashes >= 80 (@104.6)  marginal  1.37 [1.14,1.65] p=0.0009   +class  1.34 [1.04,1.72] p=0.0219
+  all_crashes >=100 (@129.5)  marginal  1.76 [1.15,2.69] p=0.0097   +class  1.79 [1.05,3.07] p=0.0336
+  ksi         per-SD          marginal  1.18 [1.12,1.25] p=0.0000   +class  1.15 [1.04,1.27] p=0.0045
+  ksi         >= 65 (@ 79.5)  marginal  1.56 [1.41,1.73] p=0.0000   +class  1.42 [1.18,1.72] p=0.0003
+  ksi         >= 80 (@104.6)  marginal  1.66 [1.28,2.15] p=0.0001   +class  1.48 [1.04,2.11] p=0.0284
+  ksi         >=100 (@129.5)  marginal  1.81 [1.21,2.70] p=0.0038   +class  1.55 [0.94,2.55] p=0.0880
+
+--- mid-block / junction split, b46v1, class-controlled (n=1320, link KSI=400, junction KSI=356) ---
+  risk_old_refetch l_ksi  per-SD          +class  1.38 [1.14,1.68] p=0.0012
+  risk_old_refetch l_ksi  >= 65 (@ 65.0)  +class  1.39 [1.17,1.65] p=0.0002
+  risk_old_refetch l_ksi  >= 80 (@ 80.0)  +class  1.59 [0.89,2.84] p=0.1207
+  risk_old_refetch l_ksi  >=100 (@100.0)  +class  1.77 [1.13,2.77] p=0.0130
+
+  risk_old_refetch j_ksi  per-SD          +class  1.05 [0.91,1.21] p=0.5024
+  risk_old_refetch j_ksi  >= 65 (@ 65.0)  +class  0.92 [0.66,1.27] p=0.6086
+  risk_old_refetch j_ksi  >= 80 (@ 80.0)  +class  1.21 [0.87,1.69] p=0.2583
+  risk_old_refetch j_ksi  >=100 (@100.0)  +class  1.05 [0.60,1.83] p=0.8671
+
+  risk_old_refetch l_all  per-SD          +class  1.10 [0.94,1.28] p=0.2555
+  risk_old_refetch l_all  >= 65 (@ 65.0)  +class  1.08 [0.83,1.40] p=0.5878
+  risk_old_refetch l_all  >= 80 (@ 80.0)  +class  1.16 [0.74,1.83] p=0.5179
+  risk_old_refetch l_all  >=100 (@100.0)  +class  1.31 [0.94,1.82] p=0.1139
+
+  risk_old_refetch j_all  per-SD          +class  1.08 [0.93,1.25] p=0.2980
+  risk_old_refetch j_all  >= 65 (@ 65.0)  +class  1.06 [0.77,1.46] p=0.7235
+  risk_old_refetch j_all  >= 80 (@ 80.0)  +class  1.27 [0.98,1.64] p=0.0705
+  risk_old_refetch j_all  >=100 (@100.0)  +class  1.18 [0.82,1.69] p=0.3716
+
+  risk_b46         l_ksi  per-SD          +class  1.30 [1.09,1.56] p=0.0044
+  risk_b46         l_ksi  >= 65 (@ 79.5)  +class  1.44 [1.04,1.98] p=0.0279
+  risk_b46         l_ksi  >= 80 (@104.6)  +class  1.41 [0.85,2.34] p=0.1818
+  risk_b46         l_ksi  >=100 (@129.5)  +class  1.92 [1.05,3.53] p=0.0354
+
+  risk_b46         j_ksi  per-SD          +class  1.06 [0.91,1.24] p=0.4583
+  risk_b46         j_ksi  >= 65 (@ 79.5)  +class  1.27 [0.91,1.78] p=0.1622
+  risk_b46         j_ksi  >= 80 (@104.6)  +class  1.21 [0.88,1.66] p=0.2448
+  risk_b46         j_ksi  >=100 (@129.5)  +class  1.12 [0.79,1.58] p=0.5294
+
+  risk_b46         l_all  per-SD          +class  0.94 [0.71,1.23] p=0.6490
+  risk_b46         l_all  >= 65 (@ 79.5)  +class  1.00 [0.77,1.30] p=0.9995
+  risk_b46         l_all  >= 80 (@104.6)  +class  1.10 [0.71,1.70] p=0.6662
+  risk_b46         l_all  >=100 (@129.5)  +class  1.27 [0.98,1.64] p=0.0663
+
+  risk_b46         j_all  per-SD          +class  1.09 [0.95,1.26] p=0.2013
+  risk_b46         j_all  >= 65 (@ 79.5)  +class  1.11 [0.79,1.56] p=0.5571
+  risk_b46         j_all  >= 80 (@104.6)  +class  1.22 [0.97,1.53] p=0.0855
+  risk_b46         j_all  >=100 (@129.5)  +class  1.31 [0.99,1.75] p=0.0628
+
+
+leave-one-region-out, class-controlled KSI, b46v1 >=104.6 (top 11.2%):
+  drop (none)               RR  1.48 [1.04, 2.11] p=0.028
+  drop baden-wuerttemberg   RR  1.67 [1.16, 2.41] p=0.006
+  drop basel                RR  1.52 [1.05, 2.20] p=0.028
+  drop belgium              RR  1.48 [1.02, 2.15] p=0.040
+  drop belgium-new          RR  1.30 [0.98, 1.73] p=0.070  <-- crosses 1
+  drop berlin               RR  1.54 [1.04, 2.27] p=0.031
+  drop berlin-bzm           RR  1.40 [0.93, 2.13] p=0.109  <-- crosses 1
+  drop bordeaux             RR  1.43 [1.00, 2.05] p=0.049
+  drop madrid               RR  1.53 [1.06, 2.21] p=0.022
+  drop nantes               RR  1.49 [1.04, 2.12] p=0.029
+  drop paris                RR  1.50 [1.03, 2.18] p=0.036
+  drop telraam-fr           RR  1.48 [1.04, 2.11] p=0.030
+  drop toulouse             RR  1.57 [1.10, 2.23] p=0.013
+  drop zurich               RR  1.43 [0.99, 2.08] p=0.058  <-- crosses 1

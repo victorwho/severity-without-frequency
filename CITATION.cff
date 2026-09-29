@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Severity Without Frequency: A Multi-Country Validation of a Cycling Routing Risk Score"
+type: article
+authors:
+  - given-names: Victor
+    family-names: Rotariu
+    email: victorrotariu@gmail.com
+abstract: >-
+  A five-country, 13-region counter-exposure panel of 2,034 sites is used to
+  test whether a deployed, safety-weighted cycling routing risk score
+  predicts crash frequency and crash severity (killed-or-seriously-injured
+  outcomes) differently, once cyclist exposure is accounted for. The score's
+  relationship to raw crash frequency is weak and inconsistent; its
+  relationship to crash severity is significant at every cut-point tested,
+  strengthens under a later, independently re-scored model generation, and is
+  the first to survive full road-class control, concentrated at mid-block
+  locations rather than junctions.
+keywords:
+  - cycling safety
+  - exposure-adjusted crash risk
+  - road-class control
+  - severity versus frequency
+  - routing risk score
+license: CC-BY-4.0
+date-released: "2026-09-29"

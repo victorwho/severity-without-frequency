@@ -1,0 +1,37 @@
+panel: 2033 sites, 1169 KSI (b46v1 scores)
+
+scale                  bands  inv  sep   adjusted RR ladder
+status quo 8 on b46        8    3    0   1.00 -> 0.85 -> 0.99 -> 0.90 -> 0.70 -> 1.02 -> 1.16 -> 1.55
+6 [32,41,60,80,120]        6    1    0   1.00 -> 0.89 -> 0.94 -> 0.97 -> 1.20 -> 1.77
+5 [42,80,105,130]          5    0    0   1.00 -> 1.04 -> 1.27 -> 1.57 -> 1.94
+5 [41,80,105,130]          5    0    0   1.00 -> 1.01 -> 1.25 -> 1.55 -> 1.92
+4 [41,80,130]              4    0    0   1.00 -> 1.01 -> 1.39 -> 1.93
+3 [41,120]                 3    0    1   1.00 -> 1.08 -> 1.87
+
+FINAL [42, 80, 105, 130]: per-band panel detail
+     -inf-42  sites   741  KSI  382  KSI/M  0.222  adjRR  1.00 [1.00, 1.00]
+       42-80  sites   900  KSI  319  KSI/M  0.251  adjRR  1.04 [0.86, 1.25]
+      80-105  sites   165  KSI  117  KSI/M  0.348  adjRR  1.27 [0.97, 1.67]
+     105-130  sites   118  KSI  162  KSI/M  0.510  adjRR  1.57 [1.20, 2.07]
+     130-inf  sites   109  KSI  189  KSI/M  0.577  adjRR  1.94 [1.50, 2.52]
+
+b46v1 network paint shares under the FINAL cuts:
+  Safer <42              9.35% of km    11.83% of segments
+  Typical 42-80         77.13% of km    77.76% of segments
+  High 80-105           10.13% of km     7.57% of segments
+  Very high 105-130      2.38% of km     2.02% of segments
+  Extreme >130           1.00% of km     0.83% of segments
+
+ADOPTED 10-shade display [32, 42, 50, 60, 70, 80, 90, 105, 130]: 4 within-tier inversions (expected; claims attach to tiers only)
+     -inf-32  sites   325  KSI  200  KSI/M  0.200  adjRR  1.00
+       32-42  sites   416  KSI  182  KSI/M  0.253  adjRR  0.87
+       42-50  sites   194  KSI   90  KSI/M  0.228  adjRR  1.00
+       50-60  sites   121  KSI   59  KSI/M  0.261  adjRR  0.92
+       60-70  sites   388  KSI   80  KSI/M  0.233  adjRR  0.77
+       70-80  sites   197  KSI   90  KSI/M  0.292  adjRR  1.23
+       80-90  sites    44  KSI   36  KSI/M  0.312  adjRR  0.94
+      90-105  sites   121  KSI   81  KSI/M  0.368  adjRR  1.30
+     105-130  sites   118  KSI  162  KSI/M  0.510  adjRR  1.47
+     130-inf  sites   109  KSI  189  KSI/M  0.577  adjRR  1.80
+
+(low-zoom sanity: new Extreme >130 = 1.00% of km vs old >100 = 2.18%)

@@ -1,0 +1,29 @@
+Creative Commons Attribution 4.0 International Public License
+
+By exercising the Licensed Rights (defined below), You accept and agree to be
+bound by the terms and conditions of this Creative Commons Attribution 4.0
+International Public License ("Public License"). To the extent this Public
+License may be interpreted as a contract, You are granted the Licensed Rights
+in consideration of Your acceptance of these terms and conditions, and the
+Licensor grants You such rights in consideration of benefits the Licensor
+receives from making the Licensed Material available under these terms and
+conditions.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Summary (not a substitute for the license): you are free to share and adapt
+this material for any purpose, even commercially, as long as you give
+appropriate credit, provide a link to the license, and indicate if changes
+were made. See https://creativecommons.org/licenses/by/4.0/ for the
+human-readable summary.
+
+---
+
+Copyright (c) 2026 the authors.
+
+This license applies to the paper (paper.md), the bibliography
+(references.bib), and the methods scripts and result logs under methods/ and
+results/ in this repository. It does not apply to, and this repository does
+not include, the underlying routing product's scoring source code or its
+factor weightings, which remain proprietary and are not licensed by this
+document.

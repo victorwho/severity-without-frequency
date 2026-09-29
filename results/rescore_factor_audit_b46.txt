@@ -1,0 +1,103 @@
+
+=== DE presence audit: KSI per passage (n=379, KSI=614) ===
+factor                        pts n_exp  RR [95% CI]           p      FDR
+Maxspeed < 51                 9.0   121   1.54 [1.19, 1.99]    0.0009  *
+HGV >7.5t Allowed            10.0   139   1.47 [1.13, 1.90]    0.0035  *
+Primary Road                 20.0    36   1.75 [1.20, 2.56]    0.0036  *
+§32.1 On-road stress         10.0   144   1.44 [1.12, 1.85]    0.0043  *
+Use Sidepath                 30.0    28   1.84 [1.21, 2.81]    0.0047  *
+Cycle infra (any)            -1.0    63   0.64 [0.45, 0.90]    0.0100  *
+Traffic Volume               17.6   130   1.41 [1.04, 1.93]    0.0296  *
+Residential                  -2.0   152   0.76 [0.58, 1.00]    0.0486  
+No Parking                   -2.0    84   1.34 [0.98, 1.82]    0.0695  
+3+ Lanes                      4.5    42   1.41 [0.97, 2.04]    0.0709  
+Maxspeed < 31               -16.0   186   0.80 [0.62, 1.04]    0.0921  
+Bicycle Designated          -12.0    21   0.64 [0.37, 1.11]    0.1144  
+2 Lanes                       0.5   132   1.23 [0.95, 1.60]    0.1149  
+Incline                       3.3    67   1.34 [0.91, 1.97]    0.1412  
+Bicycle Road                -18.0    21   0.70 [0.41, 1.22]    0.2109  
+Bike Network                 -5.0   120   1.18 [0.90, 1.56]    0.2378  
+Motor Vehicle: Destination  -10.0    15   0.70 [0.34, 1.43]    0.3270  
+Cycle Track                 -12.5    19   0.75 [0.42, 1.34]    0.3348  
+§32.3 Lane speed-taper       -7.0    32   0.82 [0.52, 1.30]    0.4083  
+Service Road                 -2.0    40   0.87 [0.57, 1.34]    0.5375  
+Parking Dooring               2.0   108   0.93 [0.66, 1.30]    0.6674  
+
+=== FR presence audit: KSI per passage (n=349, KSI=78) ===
+factor                        pts n_exp  RR [95% CI]           p      FDR
+Traffic Volume               19.6   155   4.25 [1.95, 9.26]    0.0003  *
+Primary Road                 20.0    91   2.22 [1.40, 3.54]    0.0007  *
+§32.1 On-road stress         10.0   136   1.86 [1.16, 2.99]    0.0099  *
+3+ Lanes                      4.5    35   2.06 [1.18, 3.62]    0.0114  *
+§32.3 Lane speed-taper       -7.0    52   1.95 [1.05, 3.60]    0.0335  
+Service Road                 -2.0    20   0.16 [0.02, 1.20]    0.0748  
+Parking Dooring               1.0    20   0.20 [0.03, 1.47]    0.1135  
+Maxspeed < 51                 9.0   117   1.54 [0.90, 2.62]    0.1143  
+Maxspeed < 31               -16.0   173   1.47 [0.79, 2.72]    0.2225  
+Cycle infra (any)            -1.0    52   1.32 [0.75, 2.33]    0.3412  
+No Parking                   -2.0    40   1.38 [0.70, 2.74]    0.3550  
+HGV >7.5t Allowed            10.0   203   0.84 [0.51, 1.37]    0.4829  
+2 Lanes                       0.5   108   1.18 [0.74, 1.91]    0.4866  
+Bike Network                 -5.0   155   1.16 [0.66, 2.02]    0.6094  
+Share Busway                -15.0    27   1.10 [0.55, 2.20]    0.7917  
+Residential                  -2.0    69   1.09 [0.55, 2.15]    0.8048  
+Incline                       2.4    70   0.94 [0.46, 1.93]    0.8706  
+
+=== BE presence audit: KSI per passage (n=1115, KSI=198) ===
+factor                        pts n_exp  RR [95% CI]           p      FDR
+Traffic Volume                9.4    81   2.57 [1.78, 3.70]    0.0000  *
+Use Sidepath                 30.0    62   2.07 [1.30, 3.30]    0.0023  *
+Sharrow                      -8.0    70   0.39 [0.19, 0.79]    0.0094  *
+Shared Lane                 -10.0    55   0.34 [0.14, 0.84]    0.0187  
+Bike Network                 -5.0   277   0.70 [0.50, 0.97]    0.0338  
+Maxspeed < 31               -16.0   445   1.42 [1.03, 1.98]    0.0350  
+Parking Dooring               2.0    66   1.55 [1.02, 2.37]    0.0423  
+Incline                       3.3   243   0.68 [0.44, 1.07]    0.0942  
+HGV >7.5t Allowed            10.0   350   1.25 [0.92, 1.70]    0.1584  
+Cycle infra (any)            -1.0   291   0.82 [0.60, 1.13]    0.2264  
+Risk Cap                      4.2    32   0.68 [0.26, 1.75]    0.4200  
+Primary Road                 20.0    49   0.71 [0.28, 1.78]    0.4647  
+Cyclestreet                 -25.0    99   1.17 [0.75, 1.81]    0.4959  
+§32.1 On-road stress         10.0   448   0.89 [0.62, 1.26]    0.5015  
+Maxspeed < 51                 9.0   498   0.91 [0.68, 1.23]    0.5507  
+2 Lanes                       0.5   171   1.08 [0.74, 1.57]    0.6881  
+Hazards                       1.0    19   0.82 [0.30, 2.22]    0.7005  
+§32.3 Lane speed-taper       -7.0    76   0.89 [0.48, 1.67]    0.7229  
+Cycle Track                 -12.5   121   0.92 [0.55, 1.55]    0.7609  
+Service Road                 -2.0    31   0.90 [0.37, 2.18]    0.8091  
+Residential                  -2.0   561   0.97 [0.74, 1.29]    0.8516  
+No Parking                   -2.0    16   0.94 [0.38, 2.30]    0.8908  
+Maxspeed < 81                20.0    36   1.05 [0.37, 2.97]    0.9231  
+
+=== DE per-point calibration: log-KSI-hazard per point of each factor (univariate) ===
+composite score (reference) beta/pt +0.0052 (SE 0.0013) -> RR/10pt 1.05
+Cycle infra (any)          beta/pt +0.4514 (SE 0.1752)  p= 0.0100 RR/10pt 91.31  UNDER-weighted
+2 Lanes                    beta/pt +0.4174 (SE 0.2648)  p= 0.1149 RR/10pt 64.97  
+Residential                beta/pt +0.1356 (SE 0.0687)  p= 0.0485 RR/10pt  3.88  UNDER-weighted
+3+ Lanes                   beta/pt +0.0760 (SE 0.0421)  p= 0.0709 RR/10pt  2.14  
+Service Road               beta/pt +0.0671 (SE 0.1088)  p= 0.5375 RR/10pt  1.96  
+Maxspeed < 51              beta/pt +0.0480 (SE 0.0144)  p= 0.0009 RR/10pt  1.62  UNDER-weighted
+HGV >7.5t Allowed          beta/pt +0.0384 (SE 0.0132)  p= 0.0035 RR/10pt  1.47  UNDER-weighted
+Bicycle Designated         beta/pt +0.0369 (SE 0.0234)  p= 0.1144 RR/10pt  1.45  
+Motor Vehicle: Destination beta/pt +0.0356 (SE 0.0363)  p= 0.3270 RR/10pt  1.43  
+Primary Road               beta/pt +0.0281 (SE 0.0097)  p= 0.0036 RR/10pt  1.32  UNDER-weighted
+Cycle Track                beta/pt +0.0279 (SE 0.0207)  p= 0.1770 RR/10pt  1.32  
+§32.3 Lane speed-taper     beta/pt +0.0261 (SE 0.0283)  p= 0.3567 RR/10pt  1.30  
+§32.1 On-road stress       beta/pt +0.0218 (SE 0.0088)  p= 0.0138 RR/10pt  1.24  UNDER-weighted
+Use Sidepath               beta/pt +0.0203 (SE 0.0072)  p= 0.0047 RR/10pt  1.23  UNDER-weighted
+Bicycle Road               beta/pt +0.0195 (SE 0.0156)  p= 0.2109 RR/10pt  1.22  
+Maxspeed < 31              beta/pt +0.0138 (SE 0.0082)  p= 0.0921 RR/10pt  1.15  
+Traffic Volume             beta/pt +0.0119 (SE 0.0032)  p= 0.0002 RR/10pt  1.13  UNDER-weighted
+Bike Network               beta/pt -0.0082 (SE 0.0226)  p= 0.7180 RR/10pt  0.92  
+Incline                    beta/pt -0.0103 (SE 0.0401)  p= 0.7967 RR/10pt  0.90  
+Parking Dooring            beta/pt -0.0220 (SE 0.0807)  p= 0.7849 RR/10pt  0.80  
+No Parking                 beta/pt -0.1445 (SE 0.0796)  p= 0.0694 RR/10pt  0.24  
+
+=== DE survivors under road-class control ===
+Maxspeed < 51              +class RR  1.38 [1.00, 1.90]  p=0.0500
+HGV >7.5t Allowed          +class RR  1.31 [0.89, 1.94]  p=0.1688
+Primary Road               +class RR  1.00 [0.14, 7.28]  p=0.9987
+§32.1 On-road stress       +class RR  1.31 [0.94, 1.82]  p=0.1149
+Use Sidepath               +class RR  1.47 [0.93, 2.31]  p=0.0974
+Cycle infra (any)          +class RR  0.62 [0.45, 0.87]  p=0.0062
+Traffic Volume             +class RR  1.32 [0.95, 1.82]  p=0.0937
